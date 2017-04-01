@@ -1,11 +1,3 @@
-//
-//  main.c
-//  顺序存储结构的线性表
-//
-//  Created by 朱佳杰 on 2017/4/1.
-//  Copyright © 2017年 zjj. All rights reserved.
-//
-
 #include <stdio.h>
 
 #define MAXSIZE 100   //存储空间的初始分配量
@@ -112,7 +104,7 @@ void printList(myList *l){
 }
 
 
-int main(int argc, const char * argv[]) {
+int main() {
     myList listA;
     initList(&listA);
     printf("初始化后:\n");
@@ -138,3 +130,4 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+
